@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Bootstrap Template</title>
+  </head>
+  <body>
+    <header>
+      <div class="row">
+        <div class="header">
+          <div class="col-md-12">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                  class="collapse navbar-collapse"
+                  id="navbarSupportedContent"
+                >
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#"
+                        >Home</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        id="navbarDropdown"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Dropdown
+                      </a>
+                      <ul
+                        class="dropdown-menu"
+                        aria-labelledby="navbarDropdown"
+                      >
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li>
+                          <a class="dropdown-item" href="#">Another action</a>
+                        </li>
+                        <li><hr class="dropdown-divider" /></li>
+                        <li>
+                          <a class="dropdown-item" href="#"
+                            >Something else here</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link disabled"
+                        href="#"
+                        tabindex="-1"
+                        aria-disabled="true"
+                        >Disabled</a
+                      >
+                    </li>
+                  </ul>
+                  <form class="d-flex">
+                    <input
+                      class="form-control me-2"
+                      type="search"
+                      placeholder="Search"
+                      aria-label="Search"
+                    />
+                    <button class="btn btn-outline-success" type="submit">
+                      Search
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card">
+            <img
+              src="https://media.licdn.com/dms/image/C4D03AQGHZ413VyfnqA/profile-displayphoto-shrink_200_200/0/1640425925057?e=1682553600&v=beta&t=Na_FXvLwpZG7Up3fD0UMjAw3uhHEb4GQbRXkATc-El0"
+              class="card-img-top rounded-circle w-50 mt-2 m-auto"
+              alt="Photo"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Görkem Üveyk</h5>
+              <p class="text-muted">Bootstrap Template</p>
+              <p class="card-text d-flex flex-column gap-1">
+                <a
+                  class="text-dark text-decoration-none"
+                  href="https://www.instagram.com/gorkemlideveloper/"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-instagram"></i>
+                  gorkemlideveloper
+                </a>
+                <a
+                  class="text-dark text-decoration-none"
+                  href="https://www.linkedin.com/in/gorkemuveyk/"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-github"></i>
+                  gorkemuveyk
+                </a>
+
+                <a href="" class="mt-2 mb-4">Edit Profile</a>
+              </p>
+
+              <div class="model mt-4">
+                <h5 class="card-title">Description</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+                  iure odio officia dignissimos aliquid temporibus harum
+                  similique sequi vitae perspiciatis.
+                </p>
+                <a href="#" class="btn btn-primary">Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="alert alert-primary" role="alert">
+            Stream uploaded successfully!
+          </div>
+
+          <div class="row">
+            <div class="col-md-12">
+              <div class="card">
+                <div class="card-header d-flex align-items-center">
+                  <img
+                    src="https://picsum.photos/id/1/25/25"
+                    class="rounded-circle m-1"
+                    alt="User Image"
+                  />
+                  <h6 class="m-2">
+                    <span class="text-muted">Posted by </span> Armağan Amcalar
+                  </h6>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Blanditiis adipisci unde, sapiente expedita mollitia quas?
+                  </p>
+                  <a href="#" class="btn btn-primary">Button</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mt-2">
+              <div class="card">
+                <div class="card-header d-flex align-items-center">
+                  <img
+                    src="https://picsum.photos/id/2/25/25"
+                    class="rounded-circle m-1"
+                    alt="User Image"
+                  />
+                  <h6 class="m-2">
+                    <span class="text-muted">Posted by </span> İbrahim Can Boz
+                  </h6>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Blanditiis adipisci unde, sapiente expedita mollitia quas?
+                  </p>
+                  <a href="#" class="btn btn-primary">Button</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mt-2">
+              <div class="card">
+                <div class="card-header d-flex align-items-center">
+                  <img
+                    src="https://picsum.photos/id/3/25/25"
+                    class="rounded-circle m-1"
+                    alt="User Image"
+                  />
+                  <h6 class="m-2">
+                    <span class="text-muted">Posted by </span> Atıl Samancıoğlu
+                  </h6>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Blanditiis adipisci unde, sapiente expedita mollitia quas?
+                  </p>
+                  <a href="#" class="btn btn-primary">Button</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mt-2">
+              <div class="card">
+                <div class="card-header d-flex align-items-center">
+                  <img
+                    src="https://picsum.photos/id/4/25/25"
+                    class="rounded-circle m-1"
+                    alt="User Image"
+                  />
+                  <h6 class="m-2">
+                    <span class="text-muted">Posted by </span> Atıl Samancıoğlu
+                  </h6>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Blanditiis adipisci unde, sapiente expedita mollitia quas?
+                  </p>
+                  <a href="#" class="btn btn-primary">Button</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mt-2">
+              <div class="card">
+                <div class="card-header d-flex align-items-center">
+                  <img
+                    src="https://picsum.photos/id/5/25/25"
+                    class="rounded-circle m-1"
+                    alt="User Image"
+                  />
+                  <h6 class="m-2">
+                    <span class="text-muted">Posted by </span> Atıl Samancıoğlu
+                  </h6>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Blanditiis adipisci unde, sapiente expedita mollitia quas?
+                  </p>
+                  <a href="#" class="btn btn-primary">Button</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+    </div>
+  </body>
+</html>
