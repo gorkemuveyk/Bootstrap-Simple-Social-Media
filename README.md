@@ -1,3 +1,4 @@
+A simple social media design was made using Bootstrap 5. Any use is legal.
 ##INSTALL
 
 ```
